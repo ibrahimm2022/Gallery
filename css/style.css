@@ -118,6 +118,9 @@ header .controls .next,
 header .controls .toggle {
   right: 3%;
 }
+header .controls .toggle.close {
+  background: url(../img/close.svg);
+}
 header .controls .prev {
   rotate: -180deg;
 }
