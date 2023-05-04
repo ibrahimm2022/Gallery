@@ -190,11 +190,7 @@ header .controls .toggle {
 .side-bar .copy {
   font-size: 10pt;
 }
-@media (max-width: 559px) {
-  .side-bar.active {
-    width: 70%;
-  }
-}
+
 @media (max-width: 991px) {
   .side-bar.active {
     position: absolute;
@@ -205,6 +201,11 @@ header .controls .toggle {
     top: 12px;
     width: 45px;
     cursor: pointer;
+  }
+}
+@media (max-width: 559px) {
+  .side-bar.active {
+    width: 70%;
   }
 }
 @media (min-width: 992px) {
