@@ -17,9 +17,9 @@ closeMedium.onclick = () => {
 
 function check() {
   toggle.classList.toggle("close");
-  toggle.classList.contains("close")
-    ? (toggle.style.backgroundImage = "url(../img/close.svg)")
-    : (toggle.style.backgroundImage = "url(../img/open.svg)");
+  //toggle.classList.contains("close")
+   //? (toggle.style.backgroundImage = "url(../img/close.svg)")
+    //: (toggle.style.backgroundImage = "url(../img/open.svg)");
 }
 // Slider
 
