@@ -140,6 +140,7 @@ header .controls .toggle {
   overflow: auto;
   transition: all 0.5s linear;
   opacity: 0;
+  z-index: 10000000000000000000000000;
 }
 .side-bar.active {
   width: 30%;
@@ -191,12 +192,12 @@ header .controls .toggle {
   .side-bar.active {
     position: absolute;
     width: 40%;
-    z-index: 10000000;
   }
   .slide-control .close {
     position: absolute;
     top: 12px;
     width: 45px;
+    cursor: pointer;
   }
 }
 @media (min-width: 992px) {
